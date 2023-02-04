@@ -26,4 +26,3 @@ Write the program in two different ways:
 8
 13
 21
-```
