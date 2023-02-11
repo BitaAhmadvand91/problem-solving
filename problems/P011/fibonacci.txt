@@ -1,0 +1,7 @@
+n = int (input())
+def fibonacci_sequence():
+    s=[1,1]
+    for x in renge (2,n+1):
+        s.append(x) = s[x-1]+s[x-2]
+return s 
+print(f {'fibonacci_sequence})
