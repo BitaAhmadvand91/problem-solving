@@ -1,11 +1,14 @@
 a  = [] 
 n = int (input('enter numbers of list a :'))
 for x in range (0, n):
-    a[x] = input('enter name:')
+    name = input('enter name:')
+    a.append(name)
+    print(a)
 b = []
 m = int (input('enter numbers of list b :'))
 for x in range (0,m):
-    b[x] =  input('enter name :')
+    name =  input('enter name :')
+    b.append(name)
 def merge (a,b):
     for x in b :
         a.append(x)
