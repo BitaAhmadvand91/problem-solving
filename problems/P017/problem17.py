@@ -10,4 +10,4 @@ for x in range(0,n):
     l. append(a)
 for x in range(0,n):
     c = s [n-x-1]+l[x]
-    سprint(c)
+    print(c)
