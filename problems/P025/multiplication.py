@@ -10,7 +10,7 @@ for x in range(1,l_2+1):
     for y in range (1,l_1+1):
         d_1 = int(n_2[l_2 - x ] )
         d_2 =int( n_1[l_1 -y])   
-        c =**(10**(y-1))
+        c =(10**(y-1))
         d=d+c
     a=a+d*(10**(x-1))
 print(a)
