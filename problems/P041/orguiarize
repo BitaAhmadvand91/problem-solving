@@ -1,0 +1,25 @@
+
+a = list(input('enter your list: ').split(","))
+print(a)
+a =list(map(lambda x:int(x),a))
+print(a)
+b = input('enter asc or desc : ')
+l=len(a)
+def organize(b):
+    w =[]
+    if b=='asc':
+        for x in range(0,l):
+            a_minimum = min(a)
+            w.append(a_minimum)
+            f = a.index(a_minimum)
+            del a[f] 
+    if b=='desc':
+            for x in range(0,l):
+             a_maximum =max(a)
+             w.append(a_maximum)
+             e = a.index(a_maximum)
+            del a[e]
+    return(w)
+
+print(organize(b))
+           
